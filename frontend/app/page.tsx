@@ -750,7 +750,6 @@ export default function Page() {
           <Toast
             key={t.id}
             variant={t.variant}
-            detail={"detail" in t ? t.detail : undefined}
             onDismiss={() => dropToast(t.id)}
           />
         ))}
